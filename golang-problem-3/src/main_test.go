@@ -6,14 +6,14 @@ import (
 )
 
 func TestSample1(t *testing.T) {
-	b := NewBaleImpl()
+	b := NewMessengerImpl()
 	_, err := b.AddUser("a", false)
 	assert.NotNil(t, err)
 	assert.Equal(t, "invalid username", err.Error())
 }
 
 func TestSample2(t *testing.T) {
-	b := NewBaleImpl()
+	b := NewMessengerImpl()
 	id, err := b.AddUser("ali2000", false)
 	assert.Nil(t, err)
 	chatId, err := b.AddChat("quera", false, id, []int{id})

@@ -2,7 +2,7 @@
 
 ### *Description*
 
-You are to implement *Bale* interface.\
+You are to implement *Messenger* interface.\
 \
 The `AddUser` function create new user. It has two
 arguments. The first one is the username of the new user,

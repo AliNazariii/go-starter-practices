@@ -8,8 +8,8 @@
           "url": "https://quera.ir"
         },
         {
-          "text": "bale",
-          "url": "https://web.bale.ai"
+          "text": "havij",
+          "url": "https://web.havij.ai"
         },
         {
           "text": "help",
@@ -24,6 +24,6 @@
       ]
     ]
   },
-  "text": "<b>quera</b> vs <b>bale</b>",
+  "text": "<b>quera</b> vs <b>havij</b>",
   "parse_mode": "HTML"
 }

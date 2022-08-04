@@ -14,7 +14,7 @@ func TestSendMessageSample1(t *testing.T) {
 	assert.IsType(t, msg.ReplyMarkup.(ReplyMarkup).InlineKeyboard, [][]InlineKeyboardButton{})
 	assert.Equal(t, 2, len(msg.ReplyMarkup.(ReplyMarkup).InlineKeyboard))
 	assert.Equal(t, 3, len(msg.ReplyMarkup.(ReplyMarkup).InlineKeyboard[0]))
-	assert.Equal(t, "bale", msg.ReplyMarkup.(ReplyMarkup).InlineKeyboard[0][1].Text)
+	assert.Equal(t, "havij", msg.ReplyMarkup.(ReplyMarkup).InlineKeyboard[0][1].Text)
 	assert.Equal(t, "HTML", msg.ParseMode)
 }
 
